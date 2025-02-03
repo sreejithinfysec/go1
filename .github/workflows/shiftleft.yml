@@ -28,7 +28,7 @@ jobs:
       run: |
         ${GITHUB_WORKSPACE}/sl --version
         ${GITHUB_WORKSPACE}/sl analyze --strict --wait \
-          --app go1 \
+          --app go1AI \
           --tag branch=${{ github.head_ref }} \
           $(pwd)
       env:
